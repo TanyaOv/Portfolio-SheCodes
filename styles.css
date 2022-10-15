@@ -1,0 +1,29 @@
+:root {
+  --link-color: #354259;
+  --main-bg-color: #daeaf1;
+}
+
+body {
+  background: var(--main-bg-color);
+}
+
+.navbar {
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #c8e2e9;
+}
+
+.contact-header {
+  text-align: center;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--link-color);
+  font-size: 28px;
+  text-decoration: none;
+}
